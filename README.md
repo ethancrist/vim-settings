@@ -26,8 +26,8 @@ cd ~/.vim/bundle
 ### Now, install the colorschemes.
 ```ubuntu
 git clone https://github.com/Badacadabra/vim-archery.git && \
-git clone https://github.com/Badacadabra/vim-gotham.git && \
-git clone https://github.com/Badacadabra/vim-vividchalk.git
+git clone https://github.com/whatyouhide/vim-gotham.git && \
+git clone https://github.com/tpope/vim-vividchalk.git
 ```
 
 To use any of these, either:
