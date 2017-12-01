@@ -5,13 +5,13 @@
 sudo apt-get install vim
 ```
 
-## 2) Install vim-pathogen (bundle manager)
+## 2) Install [vim-pathogen](https://github.com/tpope/vim-pathogen) (bundle manager)
 ```ubuntu
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-## 3) Create ~/.vimrc
+## 3) Create ~/.vimrc (settings file)
 ```ubuntu
 cd ~/.vimrc && \
 git clone https://github.com/ethancrist/vim-settings.git
@@ -43,4 +43,4 @@ colorscheme gotham256
 The default I use is gotham256. [Here's a list](https://github.com/rafi/awesome-vim-colorschemes) of more colorschemes, you can download them the same way you downloaded the others.
 
 ## 5) Vim on.
-From now on, use ```vim vi /path/to/filename.ext ``` to edit a file in rich, silky vim goodness.
+From now on, use ```vi /path/to/filename.ext``` to edit a file in rich, silky vim goodness.
