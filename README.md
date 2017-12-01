@@ -13,7 +13,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ## 3) Create ~/.vimrc (settings file)
 ```ubuntu
-cd ~/.vimrc && \
+cd ~/ && \
 git clone https://github.com/ethancrist/vim-settings.git
 ```
 
