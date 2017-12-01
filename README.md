@@ -19,7 +19,7 @@ git clone https://github.com/ethancrist/vim-settings.git
 
 ## 4) Install dependencies
 ### Install NERDcommenter
-```vim
+```
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdcommenter.git
 ```
