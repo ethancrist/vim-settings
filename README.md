@@ -14,7 +14,9 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ## 3) Clone ~/.vimrc (settings file)
 ```
 cd ~/ && \
-git clone https://github.com/ethancrist/vim-settings.git
+git clone https://github.com/ethancrist/vim-settings.git && \
+mv ~/vim-settings/.vimrc ~/.vimrc && \
+rm -R ~/vim-settings
 ```
 
 ## 4) Install dependencies
