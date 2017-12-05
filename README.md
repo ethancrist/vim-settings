@@ -1,59 +1,44 @@
 # Installation
-
-## 1) Install vim
-```
-sudo apt-get install vim
-```
-
-## 2) Install [vim-pathogen](https://github.com/tpope/vim-pathogen) (bundle manager)
-```
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-```
-
-## 3) Clone ~/.vimrc (settings file)
-```
-cd ~/ && \
+```bash
 git clone https://github.com/ethancrist/vim-settings.git && \
-mv ~/vim-settings/.vimrc ~/.vimrc && \
-rm -R ~/vim-settings
+vim-settings/init.sh
 ```
 
-## 4) Install dependencies
-### Install NERDcommenter
-```
-cd ~/.vim/bundle
-git clone https://github.com/scrooloose/nerdcommenter.git
-```
-### Now, install the colorschemes.
-
-First, go into your bundle folder.
-```
-cd ~/.vim/bundle
+# Usage
+###### Edit a file
+```bash
+vi /path/to/filename.ext
 ```
 
-```
-git clone https://github.com/Badacadabra/vim-archery.git && \
-git clone https://github.com/whatyouhide/vim-gotham.git && \
-git clone https://github.com/tpope/vim-vividchalk.git
-```
-
-To use any of these, either:
+### Colorschemes
+###### Switch to a new colorscheme
 ```vim
 :colorscheme archery 
 ```
-
-or, in your ~/.vimrc
+###### Change default colorscheme
+```bash
+vi ~/.vimrc
+```
+Comment out the current color scheme, and add
 ```vim
-colorscheme gotham256
+colorscheme <scheme name>
+```
+###### View all colorschemes
+```vim
+:colorscheme <TAB>
+```
+The default I use is gotham256.
+
+###### Download new colorscheme
+[Here's a list](https://github.com/rafi/awesome-vim-colorschemes) of more colorschemes.
+
+Get the link to the git repository, and run the command
+```bash
+cd ~/.vim/bundle
+git clone <link to git repo>
 ```
 
-The default I use is gotham256. [Here's a list](https://github.com/rafi/awesome-vim-colorschemes) of more colorschemes, you can download them the same way you downloaded the others.
-
-## 5) Vim on.
-From now on, use ```vi /path/to/filename.ext``` to edit a file in rich, silky vim goodness.
-
-# Custom Controls
+### Controls
 | Key Mapping | Description |
 | ------------- | ------------- |
 | jk | Exit insert mode |
@@ -61,3 +46,12 @@ From now on, use ```vi /path/to/filename.ext``` to edit a file in rich, silky vi
 | Ctrl+c | Un/Comment line(s) | 
 | Ctrl+l | Hop to right split |
 | Ctrl+h | Hop to left split | 
+
+<hr>
+
+#### Dependencies used
+###### [vim-pathogen](https://github.com/tpope/vim-pathogen) (plugin manager)
+###### [nerdcommenter](https://github.com/scrooloose/nerdcommenter.git) (plugin)
+###### [vim-archery](https://github.com/Badacadabra/vim-archery.git) (colorscheme)
+###### [vim-gotham](https://github.com/whatyouhide/vim-gotham.git) (colorscheme)
+###### [vividchalk](https://github.com/tpope/vim-vividchalk.git) (colorscheme)
