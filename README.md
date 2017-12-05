@@ -1,17 +1,20 @@
-# Installation
+# vim-settings
+###### An elegant coding environment wrapped in one command
+
+## Installation
 ```bash
 git clone https://github.com/ethancrist/vim-settings.git && \
 vim-settings/init.sh
 ```
 
-# Usage
+## Usage
 ###### Edit a file
 ```bash
 vi /path/to/filename.ext
 ```
 
-### Colorschemes
-###### Switch to a new colorscheme
+#### Colorschemes
+###### Switch to a new colorscheme (while in vim)
 ```vim
 :colorscheme archery 
 ```
@@ -19,17 +22,17 @@ vi /path/to/filename.ext
 ```bash
 vi ~/.vimrc
 ```
-Comment out the current color scheme, and add
 ```vim
+" At the bottom of your .vimrc
 colorscheme <scheme name>
 ```
-###### View all colorschemes
+###### View all colorschemes (while in vim)
 ```vim
 :colorscheme <TAB>
 ```
-The default I use is gotham256.
-
 ###### Download new colorscheme
+The default I use is gotham256, which will be set on installation.
+
 [Here's a list](https://github.com/rafi/awesome-vim-colorschemes) of more colorschemes.
 
 Get the link to the git repository, and run the command
@@ -38,7 +41,7 @@ cd ~/.vim/bundle
 git clone <link to git repo>
 ```
 
-### Controls
+#### Controls
 | Key Mapping | Description |
 | ------------- | ------------- |
 | jk | Exit insert mode |
@@ -49,7 +52,7 @@ git clone <link to git repo>
 
 <hr>
 
-#### Dependencies used
+##### Dependencies used
 ###### [vim-pathogen](https://github.com/tpope/vim-pathogen) (plugin manager)
 ###### [nerdcommenter](https://github.com/scrooloose/nerdcommenter.git) (plugin)
 ###### [vim-archery](https://github.com/Badacadabra/vim-archery.git) (colorscheme)
