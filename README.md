@@ -35,9 +35,9 @@ The default I use is gotham256, which will be set on installation.
 
 [Here's a list](https://github.com/rafi/awesome-vim-colorschemes) of more colorschemes.
 
-Get the link to the git repository, and run the command
+Get the link to the git repository, and run
 ```bash
-cd ~/.vim/bundle
+cd ~/.vim/bundle && \
 git clone <link to git repo>
 ```
 
