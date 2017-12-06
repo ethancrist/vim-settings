@@ -16,7 +16,6 @@ git clone https://github.com/tpope/vim-vividchalk.git
 
 echo "[vim-settings] Installing settings..."
 mv vim-settings/.vimrc ~/.vimrc
-cd ..
 rm -R vim-settings
 
 echo "[vim-settings] Done. Vim on."
