@@ -15,8 +15,7 @@ git clone https://github.com/whatyouhide/vim-gotham.git
 git clone https://github.com/tpope/vim-vividchalk.git
 
 echo "[vim-settings] Installing settings..."
-ls
-mv vim-settings/.vimrc ~/.vimrc
-rm -R vim-settings
+mv ~/vim-settings/.vimrc ~/.vimrc
+rm -R ~/vim-settings
 
 echo "[vim-settings] Done. Vim on."
