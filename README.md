@@ -1,8 +1,9 @@
 # vim-settings
-###### An elegant coding environment wrapped in one command
+###### An elegant coding environment acquired in one simple step
 
 ## Installation
 ```bash
+cd ~/ && \
 git clone https://github.com/ethancrist/vim-settings.git && \
 vim-settings/init.sh
 ```
