@@ -34,7 +34,8 @@ nmap <silent> <c-l> :wincmd l<CR>
 nnoremap <C-c> :call NERDComment(0,"toggle")<CR>                                                                                                   
 vnoremap <C-c> :call NERDComment(0,"toggle")<CR>                                                                                                   
                                                                                                                                                    
-" [DISPLAY]                                                                                                                                        
+" [DISPLAY]
+set hlsearch
 set t_Co=256                                                                                                                                       
 set background=dark                                                                                                                                
 " colorscheme archery                                                                                                                              
