@@ -32,8 +32,11 @@ nmap <silent> <c-l> :wincmd l<CR>
 
 " nerdcommenter; Ctrl+O to toggle commentss                                                                                                        
 nnoremap <C-c> :call NERDComment(0,"toggle")<CR>                                                                                                   
-vnoremap <C-c> :call NERDComment(0,"toggle")<CR>                                                                                                   
-                                                                                                                                                   
+vnoremap <C-c> :call NERDComment(0,"toggle")<CR>
+
+" :W = :w = write file (in case accidentally caps)
+command W w
+
 " [DISPLAY]
 set hlsearch
 set t_Co=256                                                                                                                                       
