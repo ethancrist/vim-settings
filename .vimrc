@@ -15,6 +15,7 @@ set tabstop=4
 set shiftwidth=4
 " " On pressing tab, insert 4 spaces
 set expandtab
+set paste
 
 " [NAVIGATION]
 " open split view with new file on the right
